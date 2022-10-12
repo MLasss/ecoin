@@ -14,10 +14,9 @@ export default class Help extends Component {
                                     <Card.Text className="text-justify">
                                         There is a limit on how far one person can carry. 
                                         If you have required skills and are willing to help - please contact me <a href={"mailto:emojicoins@protonmail.com"}>EmojiCoins</a>. <br/> <br/>
-
-                                        <b>Solidity</b> - testing exiting contracts and designing new ones. <br/>
-                                        <b>React/Web3</b> - integrate contracts and improve UX. <br/>
-                                        <b>Marketing</b> - if you have it - you know what needs to be done :)
+                                        <b>Marketing ...</b><br/>
+                                        <b>Solidity ...</b><br/>
+                                        <b>React/Web3 ...</b><br/>
                                     </Card.Text>  
                                 </div>
                                 <div >

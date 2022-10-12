@@ -19,7 +19,7 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                                 </Card.Text>  
                             </div>
                             <div>
-                                <img style={{height:"210px", width:"210px"}} src={require('../images/face-02.png')} alt="" />
+                                <img style={{height:"210px", width:"210px"}} src={require('../images/ic04_BW_512.png')} alt="" />
                             </div>
                         </div> 
                     </Card.Body>      
@@ -27,7 +27,7 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                     <Card.Body>
                         <div className="details-horisontal"> 
                             <div>
-                                <img style={{height:"210px", width:"210px"}} src={require('../images/face-04.png')} alt="" />
+                                <img style={{height:"210px", width:"210px"}} src={require('../images/ic02_BW_512.png')} alt="" />
                             </div>
                             <div className="details-text">
                                 <Card.Text className="text-justify">

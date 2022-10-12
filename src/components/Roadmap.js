@@ -12,14 +12,14 @@ export default class Roadmap extends Component {
                             <div className="details-horisontal"> 
                                 <div className="details-text">
                                     <Card.Text className="text-justify">
-                                        I give no promises, I can not keep...<br/>
-                                        I work alone, but that may change...<br/>
-                                        This project is not my main focus, but that may change...<br/>
-                                        No promises, just some ideas...<br/>
+                                        I work alone and this is my pet project. <br/>
+                                        There is no roadmap, just a list of ideas. <br/>
+                                        I can not promise to tick all items in the list ... <br/>
+                                        but with a little bit of luck and help - the sky's the limit.
                                     </Card.Text>  
                                 </div>
                                 <div>
-                                    <img style={{height:"200px", width:"200px"}} src={require('../images/face-05.png')} alt="" />
+                                    <img style={{height:"200px", width:"200px"}} src={require('../images/ic06_BW_512.png')} alt="" />
                                 </div>
                             </div> 
                             <br/>

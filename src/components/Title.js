@@ -35,7 +35,7 @@ export default class Title extends Component {
                                 </Card.Text>  
                             </div>
                             <div>
-                                <img style={{height:"200px", width:"200px"}} src={require('../images/face-00.png')} alt="" />
+                                <img style={{height:"200px", width:"200px"}} src={require('../images/ic05_512.png')} alt="" />
                             </div>
                         </div>  
                         <Alert variant="danger" show={show} onClose={() => this.setState({ show: false })} dismissible>

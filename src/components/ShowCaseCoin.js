@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const defaultGateway = "https://ipfs.io";
+const defaultGateway = process.env.REACT_APP_DEFAULT_GATEWAY;
 
 export default class ShowCaseCoin extends Component {
 
@@ -8,7 +8,7 @@ export default class ShowCaseCoin extends Component {
         return (
             <div className="showcaseCoin">
                 <div className="showcaseCoinImgFrame">
-                    <img className="showcaseCoinImg" style={{height:"168px", width:"168px"}} src={defaultGateway + "/ipfs/" + this.props.coinHash } alt="" />
+                    <img className="showcaseCoinImg" style={{height:"168px", width:"168px"}} src={require("../images/showcase/" + this.props.coinHash + '.gif')} alt="" />
                     <br/>
                     <b>{this.props.text}</b> <br/>
 

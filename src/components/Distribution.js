@@ -15,7 +15,7 @@ export default class Distribution extends Component {
                                 <img src={require('../images/graph-distribution.png')} alt="" />
                             </div>
                             <div>
-                                <img style={{height:"210px", width:"210px"}} src={require('../images/face-03.png')} alt="" />
+                                <img style={{height:"210px", width:"210px"}} src={require('../images/ic01_BW_512.png')} alt="" />
                             </div>
                         </div>
                         <br />
