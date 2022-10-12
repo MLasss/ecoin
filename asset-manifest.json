@@ -1,14 +1,37 @@
 {
   "files": {
     "main.css": "./static/css/main.ca644ce9.css",
-    "main.js": "./static/js/main.f4cf1ecd.js",
+    "main.js": "./static/js/main.36d45aa3.js",
     "static/js/787.86e06925.chunk.js": "./static/js/787.86e06925.chunk.js",
     "static/media/001.gif": "./static/media/001.e473c1f4f85021d4c4b9.gif",
     "static/media/webBanner.gif": "./static/media/webBanner.a0cee6050242a1bac194.gif",
+    "static/media/QmcRFsarJd1WSCDbGqUm1ZXXuwVhGZRvn4HLTJqyikowKZ.gif": "./static/media/QmcRFsarJd1WSCDbGqUm1ZXXuwVhGZRvn4HLTJqyikowKZ.dbafa3add52f201f28b3.gif",
+    "static/media/QmRfncZidcXMX8EmtV4P9fgpwokhuvbKsTpv1RDoPCg2zc.gif": "./static/media/QmRfncZidcXMX8EmtV4P9fgpwokhuvbKsTpv1RDoPCg2zc.e9515648852e8b9e7655.gif",
+    "static/media/QmQK9tgn6dAXiiBVWrg45Ag2rz74AqmLBmmKMDTputsr12.gif": "./static/media/QmQK9tgn6dAXiiBVWrg45Ag2rz74AqmLBmmKMDTputsr12.2c98253a81a4ba5335af.gif",
+    "static/media/QmZwrSWy4MpJooRg92BJo7dqYBCb4GX11PDwqeemso52dW.gif": "./static/media/QmZwrSWy4MpJooRg92BJo7dqYBCb4GX11PDwqeemso52dW.315d813cfd1b7696422e.gif",
     "static/media/coin9237.gif": "./static/media/coin9237.3842afd241dbb2bbdf99.gif",
+    "static/media/QmRpk6HvAP1ySi2FsPoh5vEj4WbtxpnyoFyptNTsYPxcaa.gif": "./static/media/QmRpk6HvAP1ySi2FsPoh5vEj4WbtxpnyoFyptNTsYPxcaa.37a4d49378743fa0463a.gif",
+    "static/media/QmUhJYzbcYzthqWF6QzmiwCQFaCWEzypA955WbEfrPp2hq.gif": "./static/media/QmUhJYzbcYzthqWF6QzmiwCQFaCWEzypA955WbEfrPp2hq.cdc3cd05ffd0f52544b4.gif",
+    "static/media/QmV4pAxu9snChCyf1ucWA2C74J2J7KYje7TeBZeUooNc2k.gif": "./static/media/QmV4pAxu9snChCyf1ucWA2C74J2J7KYje7TeBZeUooNc2k.959f6740d388392c6c41.gif",
+    "static/media/QmXb5bjbqJJKhPCGcHjsLC46QMfmBzxvHYzD894zDH9Nkn.gif": "./static/media/QmXb5bjbqJJKhPCGcHjsLC46QMfmBzxvHYzD894zDH9Nkn.f0da0f3fe775f505fd81.gif",
+    "static/media/QmXfMicdJFPjQNzLEHK25qdsseZtytnxRAMDg5ymLGAcj5.gif": "./static/media/QmXfMicdJFPjQNzLEHK25qdsseZtytnxRAMDg5ymLGAcj5.1b0feebf1230b551d184.gif",
+    "static/media/QmXBtoT7xwJMmRATfraeCdJRdfydqChJ2HAk1E6nVBabKX.gif": "./static/media/QmXBtoT7xwJMmRATfraeCdJRdfydqChJ2HAk1E6nVBabKX.ee3788f13542b61de270.gif",
+    "static/media/Qmex1npDdDmnNZZtQrxhuAHSKdX622Yxkq3bxiG5WHLizx.gif": "./static/media/Qmex1npDdDmnNZZtQrxhuAHSKdX622Yxkq3bxiG5WHLizx.a351da0b2a1ff90f69de.gif",
+    "static/media/QmRwbWVGisQTNYi2Q4F3ebAYyG4fjPYCpvmzbqifVXJqJp.gif": "./static/media/QmRwbWVGisQTNYi2Q4F3ebAYyG4fjPYCpvmzbqifVXJqJp.f559c3e893b14a051540.gif",
+    "static/media/QmcGyfrMuXvLd3oKX7og1gizTePSEPq38L3ANsC4SACH5E.gif": "./static/media/QmcGyfrMuXvLd3oKX7og1gizTePSEPq38L3ANsC4SACH5E.9b63a3814a748162d7fa.gif",
+    "static/media/QmVsiotVTLY2nfWcvvpysgmarfwR7KdMHVUfmVnL8JoJjh.gif": "./static/media/QmVsiotVTLY2nfWcvvpysgmarfwR7KdMHVUfmVnL8JoJjh.46c6cc2af45d526ed07c.gif",
+    "static/media/QmNTHKeFMKzgmcamYXZpaB2QQdUQXyzVKfzkYEzG1oDLee.gif": "./static/media/QmNTHKeFMKzgmcamYXZpaB2QQdUQXyzVKfzkYEzG1oDLee.1647a86dabc6783cf5e2.gif",
+    "static/media/QmSavy4FkmidjKsEzrG4C1BbnDvJZnMYjkyFbnYrAnHfrV.gif": "./static/media/QmSavy4FkmidjKsEzrG4C1BbnDvJZnMYjkyFbnYrAnHfrV.093ff3c654b221992dfc.gif",
+    "static/media/QmQYu2pKj1FivqocbofFF2LVk8uUiPreyeXkGSD6L4YjK8.gif": "./static/media/QmQYu2pKj1FivqocbofFF2LVk8uUiPreyeXkGSD6L4YjK8.a4c3c8161f9edb7a65ba.gif",
+    "static/media/QmR7CL1ZAZ3vxgpbT7UrkEmngK6BNhScTokqYZUDtCni5V.gif": "./static/media/QmR7CL1ZAZ3vxgpbT7UrkEmngK6BNhScTokqYZUDtCni5V.7966d8cc74b5859bcf16.gif",
     "static/media/img_certificate2.png": "./static/media/img_certificate2.a83d2261f42ce523541a.png",
+    "static/media/ic05_512.png": "./static/media/ic05_512.c5a4feacf11d9cf1b38d.png",
     "static/media/dotim5__.ttf": "./static/media/dotim5__.a2cee23bf4da4435cb29.ttf",
+    "static/media/ic02_BW_512.png": "./static/media/ic02_BW_512.6c173972d0f70e7db727.png",
+    "static/media/ic04_BW_512.png": "./static/media/ic04_BW_512.baff3ab0da1d0948458a.png",
+    "static/media/ic01_BW_512.png": "./static/media/ic01_BW_512.1cfd8f2b7b7d047710e6.png",
     "static/media/digitsBG.png": "./static/media/digitsBG.d7aa08819e8e8ddbea0c.png",
+    "static/media/ic06_BW_512.png": "./static/media/ic06_BW_512.6b7d1b79bae3dbae61c7.png",
     "static/media/img_model.png": "./static/media/img_model.1632f91a9b3976284b5f.png",
     "static/media/Nueva-Std.ttf": "./static/media/Nueva-Std.ed5aa917a8e78957a54e.ttf",
     "static/media/Nueva-Std-Bold-Condensed.ttf": "./static/media/Nueva-Std-Bold-Condensed.c5e3858a6126bd67233a.ttf",
@@ -21,11 +44,11 @@
     "static/media/graph-distribution.png": "./static/media/graph-distribution.bea9f64bb8d0c2b9c541.png",
     "index.html": "./index.html",
     "main.ca644ce9.css.map": "./static/css/main.ca644ce9.css.map",
-    "main.f4cf1ecd.js.map": "./static/js/main.f4cf1ecd.js.map",
+    "main.36d45aa3.js.map": "./static/js/main.36d45aa3.js.map",
     "787.86e06925.chunk.js.map": "./static/js/787.86e06925.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca644ce9.css",
-    "static/js/main.f4cf1ecd.js"
+    "static/js/main.36d45aa3.js"
   ]
 }
