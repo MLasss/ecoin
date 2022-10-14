@@ -16,7 +16,7 @@ export default class ShowCaseEmoji extends Component {
                 <div className="showcaseEmojiImgFrame">
                     <img className="showcaseEmojiImg" 
                         onLoad={() => {
-                            if (this.props.parentCallback != null && !currentTarget.src.includes("loading")) this.props.parentCallback(this.props.no);
+                            if (this.props.parentCallback != null) this.props.parentCallback(this.props.no);
                         }} 
                         style={{height:"130px", width:"130px"}} src={faceURL} alt="" 
                         onError={({ currentTarget }) => {
