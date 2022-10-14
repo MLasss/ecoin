@@ -1,21 +1,30 @@
 import React, { Component } from 'react';
 
-const defaultGateway = "https://ipfs.io";
+const defaultGateway = process.env.REACT_APP_DEFAULT_GATEWAY;
+const facesCID = "bafybeigeiglp53lqltxv3gsgufluzguq43bruo2dvok6cewyul4wud3fx4";
+const loadingImg = require('../images/loading.gif');
 
 export default class ShowCaseEmoji extends Component {
     constructor(props) {
         super(props);
-      }
-
-    handleOnLoad = (e) => {
-        if (this.props.parentCallback != null) this.props.parentCallback(this.props.no);
-    };
+    }
 
     render() {
+        const faceURL = `${defaultGateway}/ipfs/${facesCID}/${this.props.emojiNo}.png`;
         return (
             <div className="showcaseEmoji">
                 <div className="showcaseEmojiImgFrame">
-                    <img className="showcaseEmojiImg" onLoad={this.handleOnLoad} style={{height:"130px", width:"130px"}} src={defaultGateway + "/ipfs/bafybeigeiglp53lqltxv3gsgufluzguq43bruo2dvok6cewyul4wud3fx4/" + this.props.emojiNo + ".png"} alt="" />
+                    <img className="showcaseEmojiImg" 
+                        onLoad={() => {
+                            if (this.props.parentCallback != null && !currentTarget.src.includes("loading")) this.props.parentCallback(this.props.no);
+                        }} 
+                        style={{height:"130px", width:"130px"}} src={faceURL} alt="" 
+                        onError={({ currentTarget }) => {
+                            //currentTarget.onerror = null; 
+                            currentTarget.src=loadingImg;
+                            setTimeout(function() { currentTarget.src=faceURL; }, 500);
+                        }}
+                    />
                     <br/>
                     <b>{this.props.text}</b> <br/> 
                 </div>

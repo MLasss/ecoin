@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-const defaultGateway = process.env.REACT_APP_DEFAULT_GATEWAY;
-
 export default class ShowCaseCoin extends Component {
 
     render() {

@@ -52,7 +52,7 @@ export default class Distribution extends Component {
                     <Card.Body>
                         <Card.Text className="text-justify">
                             100,000 EMOJI are initially pre-minted for project owner's personal use. Additional supply of EMOJI tokens will be available only through staking, burning, or OM bonuses.<br/>
-                            <i>Pre-minted tokens most likely will be used for liquidity pool funding on DEX, further details will be confirmed in the future. </i><br/><br/>
+                            <i>Pre-minted tokens most likely will be used for liquidity pool funding on DEX, further details will be announced. </i><br/><br/>
                         </Card.Text> 
                     </Card.Body>               
                 </Card>  
