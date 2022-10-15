@@ -18,11 +18,11 @@ export default class ShowCaseEmoji extends Component {
                         onLoad={() => {
                             if (this.props.parentCallback != null) this.props.parentCallback(this.props.no);
                         }} 
-                        style={{height:"130px", width:"130px"}} src={faceURL} alt="" 
+                        style={{height:"130px", width:"130px"}} alt="" 
+                        src={this.props.isLoaded || this.props.no == null ? faceURL : loadingImg} 
                         onError={({ currentTarget }) => {
-                            //currentTarget.onerror = null; 
                             currentTarget.src=loadingImg;
-                            setTimeout(function() { currentTarget.src=faceURL; }, 500);
+                            setTimeout(function() { currentTarget.src=faceURL; }, 200);
                         }}
                     />
                     <br/>
