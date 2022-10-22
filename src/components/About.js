@@ -89,6 +89,19 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                         <br/>  
                         <div className="details-horisontal"> 
                             <div className="details-img">
+                                <img style={{height:"192px", width:"192px"}} src={require('../images/polygon.png')} alt="" />
+                            </div>
+                            <div className="details-text">
+                                <Card.Text className="text-center">
+                                    No expensive transaction fees.<br/> 
+                                    Emojicoins dapp is build on Polygon, <br/> 
+                                    Layer 2 blockchain that aims to help Ethereum with its scalability.<br/> 
+                                </Card.Text>  
+                            </div>
+                        </div>                          
+                        <br/>  
+                        <div className="details-horisontal"> 
+                            <div className="details-img">
                                 <img style={{height:"192px", width:"192px"}} src={require('../images/ipfs.png')} alt="" />
                             </div>
                             <div className="details-text">
