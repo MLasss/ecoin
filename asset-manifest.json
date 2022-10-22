@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.ca644ce9.css",
-    "main.js": "./static/js/main.822faaf8.js",
+    "main.js": "./static/js/main.8a75c936.js",
     "static/js/787.86e06925.chunk.js": "./static/js/787.86e06925.chunk.js",
     "static/media/001.gif": "./static/media/001.e473c1f4f85021d4c4b9.gif",
     "static/media/webBanner.gif": "./static/media/webBanner.a0cee6050242a1bac194.gif",
@@ -36,6 +36,7 @@
     "static/media/Nueva-Std.ttf": "./static/media/Nueva-Std.ed5aa917a8e78957a54e.ttf",
     "static/media/Nueva-Std-Bold-Condensed.ttf": "./static/media/Nueva-Std-Bold-Condensed.c5e3858a6126bd67233a.ttf",
     "static/media/icon-E192.gif": "./static/media/icon-E192.648d420b7eeb164e2245.gif",
+    "static/media/polygon.png": "./static/media/polygon.21d683f93a1d9080395c.png",
     "static/media/graph-staking.png": "./static/media/graph-staking.664570590d3f4b69c97d.png",
     "static/media/graph-staking-2.png": "./static/media/graph-staking-2.26be0e0ccd557629369e.png",
     "static/media/faces.png": "./static/media/faces.52302c919b1a6f9e7476.png",
@@ -45,11 +46,11 @@
     "static/media/loading.gif": "./static/media/loading.429b286567e28c6071bb.gif",
     "index.html": "./index.html",
     "main.ca644ce9.css.map": "./static/css/main.ca644ce9.css.map",
-    "main.822faaf8.js.map": "./static/js/main.822faaf8.js.map",
+    "main.8a75c936.js.map": "./static/js/main.8a75c936.js.map",
     "787.86e06925.chunk.js.map": "./static/js/787.86e06925.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca644ce9.css",
-    "static/js/main.822faaf8.js"
+    "static/js/main.8a75c936.js"
   ]
 }
