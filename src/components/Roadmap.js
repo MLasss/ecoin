@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card'
+import Alert from 'react-bootstrap/Alert'
+import RandomSentence from './RandomSentence';
 
 export default class Roadmap extends Component {
 
@@ -12,10 +14,9 @@ export default class Roadmap extends Component {
                             <div className="details-horisontal"> 
                                 <div className="details-text">
                                     <Card.Text className="text-justify">
-                                        I work alone and this is my pet project. <br/>
-                                        There is no roadmap, just a list of ideas. <br/>
-                                        I can not promise to tick all items in the list ... <br/>
-                                        but with a little bit of luck and help - the sky's the limit.
+                                        This project is my pet project, and I'm working on it alone. While there is no official roadmap, I do have a list of ideas that I'd like to explore.
+                                        I can't promise to accomplish every item on that list, but with a bit of luck and help, I believe the sky's the limit for this project. <br/><br/>
+                                        <i>As you watch the ideas listed below evolve, ponder the potential of each one. How many of these seeds of possibility do you think will take root and flourish?</i>
                                     </Card.Text>  
                                 </div>
                                 <div>
@@ -23,108 +24,17 @@ export default class Roadmap extends Component {
                                 </div>
                             </div> 
                             <br/>
-                            <div className="roadmap-horisontal"> 
-                                <div className="roadmap-img">
-                                    <img className="roadmap-img" src={require('../images/roadmap.png')} alt="" />
-                                </div>
-                                <div className="roadmap-text">
-                                    <b>Catalog Emoji features</b> <br/>
-                                    Display features by rarity.<br/>
-                                    Search Emojis by features.<br/>
-                                </div>
-                            </div>  
+                            <Alert variant="secondary">
+                                <RandomSentence jsonFileName="roarmap_1" className="mb-0" delay={10000}/>
+                            </Alert>  
+                            <Alert variant="secondary">
+                                <RandomSentence jsonFileName="roarmap_2" className="mb-0" delay={10000}/>
+                            </Alert>  
+                            <Alert variant="secondary">
+                                <RandomSentence jsonFileName="roarmap_3" className="mb-0" delay={10000}/>
+                            </Alert>  
                             <br/>
-                            <div className="roadmap-horisontal"> 
-                                <div className="roadmap-img">
-                                    <img className="roadmap-img" src={require('../images/roadmap.png')} alt="" />
-                                </div>
-                                <div className="roadmap-text">
-                                    <b>Emoji metadata on blockchain</b> <br/>
-                                     Store Emoji features on blockchain.<br/> 
-                                     More enhanced filtering on Opensea.<br/> 
-                                </div>
-                            </div>  
-                            <br/>
-                            <div className="roadmap-horisontal"> 
-                                <div className="roadmap-img">
-                                    <img className="roadmap-img" src={require('../images/roadmap.png')} alt="" />
-                                </div>
-                                <div className="roadmap-text">
-                                    <b>High resolution Emojis</b> <br/>
-                                     Another collection with 512x512px colorfull Emojis<br/> 
-                                </div>
-                            </div>  
-                            <br/>                            
-                            <div className="roadmap-horisontal"> 
-                                <div className="roadmap-img">
-                                    <img className="roadmap-img" src={require('../images/roadmap.png')} alt="" />
-                                </div>
-                                <div className="roadmap-text">
-                                    <b>Mystery chest</b> <br/>
-                                    An NFT with hidden random coin.<br/> 
-                                </div>
-                            </div>  
-                            <br/>     
-                            <div className="roadmap-horisontal"> 
-                                <div className="roadmap-img">
-                                    <img className="roadmap-img" src={require('../images/roadmap.png')} alt="" />
-                                </div>
-                                <div className="roadmap-text">
-                                    <b>Liquidity Pools</b> <br/>
-                                    Trading EMOJI tokens on DEX.<br/> 
-                                </div>
-                            </div>  
-                            <br/>                                                    
-                            <div className="roadmap-horisontal"> 
-                                <div className="roadmap-img">
-                                    <img className="roadmap-img" src={require('../images/roadmap.png')} alt="" />
-                                </div>
-                                <div className="roadmap-text">
-                                    <b>Ethereum Main Network</b> <br/>
-                                    Ability to migrate Emoji Coins and EMOJIs to L1 (Ethereum). An owner will be able to trade on L1 (staking, burning, and other features will stay on L2). <br/> 
-                                </div>
-                            </div>  
-                            <br/>
-                            <div className="roadmap-horisontal"> 
-                                <div className="roadmap-img">
-                                    <img className="roadmap-img" src={require('../images/roadmap.png')} alt="" />
-                                </div>
-                                <div className="roadmap-text">
-                                    <b>Special Edition Coins</b> <br/>
-                                    2000 coins are still to be designed, ideally by the community, through various competitions. <br/>
-                                </div>
-                            </div>  
-                            <br/>
-                            <div className="roadmap-horisontal"> 
-                                <div className="roadmap-img">
-                                    <img className="roadmap-img" src={require('../images/roadmap.png')} alt="" />
-                                </div>
-                                <div className="roadmap-text">
-                                    <b>DAO / voting</b> <br/>
-                                    The Emojicoins DAO will allow coin owners to take part in major decisions on the project. <br/>
-                                </div>
-                            </div>  
-                            <br/>                            
-                            <div className="roadmap-horisontal"> 
-                                <div className="roadmap-img">
-                                    <img className="roadmap-img" src={require('../images/roadmap.png')} alt="" />
-                                </div>
-                                <div className="roadmap-text">
-                                    <b>Gallery on Cryptovoxels</b> <br/>
-                                    We need a place to promote the project and hangout? Emoji coins were designed with Cryptovoxels in mind. All .vox models are supported out of the box. <br/>
-                                </div>
-                            </div>  
-                            <br/>
-                            <div className="roadmap-horisontal"> 
-                                <div className="roadmap-img">
-                                    <img className="roadmap-img" src={require('../images/roadmap.png')} alt="" />
-                                </div>
-                                <div className="roadmap-text">
-                                    <b>Other Metaverses (Decentraland/Sandbox)</b> <br/>
-                                    Why to stop at singe metaverse only? <br/> 
-                                </div>
-                            </div>  
-                            <br/>
+
 
                     </Card.Body>
                 

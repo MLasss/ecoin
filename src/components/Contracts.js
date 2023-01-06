@@ -7,12 +7,13 @@ export default class Contracts extends Component {
         return (
             <div>
                 <Card bg='light' border="secondary" >
-                    <Card.Header><b>Contract Audit</b></Card.Header>
+                    <Card.Header><b>Risk Warning for EmojiCoins Dapps and Contracts</b></Card.Header>
                     <Card.Body>
                         <Card.Text className="text-justify">
-                            None of the contracts have been audited. I was using out of the box OpenZepelin code where possible. <br/>
-                            I give no guarantees, that contracts are secure and bugs free. If the project gains popularity, contract security will be prioritised. 
-                            For now, <b>use them at your own risk</b>.
+                            It is important to note that none of the contracts associated with EmojiCoins have been audited. 
+                            While I have used out-of-the-box OpenZeppelin code wherever possible, I cannot guarantee that the contracts or dapps are completely secure and free of bugs. 
+                            If the project becomes more popular, contract security will be given higher priority.  <br/>
+                            In the meantime, please <b>use EmojiCoins dapps and contracts at your own risk</b>.
                         </Card.Text>  
                     </Card.Body>
                     <Card.Header><b>Emoji Coins [ERC721]</b></Card.Header>
@@ -22,7 +23,7 @@ export default class Contracts extends Component {
                             Standard ERC721 contract from OpenZepelin, with custom burning, minting and token meta-data logic.<br/>
                         </Card.Text>  
                     </Card.Body>
-                    <Card.Header><b>Emojis [ERC20]</b></Card.Header>
+                    <Card.Header><b>Emoji Tokens (EMOJIS) [ERC20]</b></Card.Header>
                     <Card.Body>
                         <Card.Text className="text-justify">
                             Contract Address: 0x3CA90c2b93d66f86FE70c0E7623bcbbAD18f2A14 <br/>

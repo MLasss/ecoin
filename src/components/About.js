@@ -12,10 +12,9 @@ export default class About extends Component {
                         <div className="details-horisontal"> 
                             <div className="details-text">
                                 <Card.Text className="text-justify">
-                                Do you happen to know anyone who used to collect coins in their early days? 
-I was one of the collectors myself... I was fascinated by original designs, shapes and stories behind them, but I couldn't understand why such cool items are being ruined with all those ugly faces!<br/> 
-Yet here I am... many years have gone to past and I'm happily releasing my own digital version of coins, with what I believe much more exciting content!
-Does this bring back any memories or perhaps a little nostalgia is scratching the back of your head right now? <br/> 
+                                Do you happen to know anyone who used to collect coins in their early days? I was one of those collectors myself. I was fascinated by the original designs, shapes, and stories behind them. However, I couldn't understand why such cool items were being ruined with all those ugly faces!<br/> 
+                                <br/> 
+                                Yet, here I am. Many years have passed, and I'm happily releasing my own digital version of coins, with what I believe is much more exciting content. Does this bring back any memories for you, or perhaps a little nostalgia is scratching the back of your head right now?
                                 </Card.Text>  
                             </div>
                             <div>
@@ -31,8 +30,12 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                             </div>
                             <div className="details-text">
                                 <Card.Text className="text-justify">
-                                Collecting, staking, minting and a couple of other twists, but to be honest, you will find nothing groundbreaking in it just yet!<br/>
-                                It has started as one person project but with an intention to GROW with time and on-board more NFT enthusiasts with certain skills to allow for expansion beyond current assumptions!<br/>
+                                I know you must be absolutely thrilled to hear about our groundbreaking activities like collecting, staking, and minting. 
+                                I mean, who wouldn't be excited to hear about things they've never heard of before? <br/>
+                                And don't even get me started on the fact that this is a one-person project. 
+                                I mean, clearly one person can't accomplish anything these days, right? 
+                                But don't worry, I have big plans to bring on a whole team of highly skilled NFT enthusiasts. 
+                                Because clearly, one person isn't enough to accomplish anything worth talking about.
                                 </Card.Text>  
                             </div>
                         </div> 
@@ -46,8 +49,10 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                             </div>
                             <div className="details-text">
                                 <Card.Text className="text-center">
-                                    A collection of 10,000 unique coin designs<br/> with unrepeatable emoji faces. <br/> <br/>
-                                    Each coin has its nominal value <br/> and can be exchanged for EMOJI tokens. 
+                                The EmojiCoins Collection is a one-of-a-kind collection featuring <br/>10,000 unique coin designs. <br/>
+                                With a variety of metal compositions, grades, and rarities, these coins are sure to impress even the most discerning collector.<br/>
+                                Each coin boasts a unique emoji face and has a nominal value <br/>that can be redeemed for EMOJI tokens.<br/> 
+                                Don't miss out on the opportunity to add these <br/>extraordinary coins to your collection.
                                 </Card.Text>  
                             </div>
                         </div> 
@@ -55,7 +60,9 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                         <div className="details-horisontal"> 
                             <div className="details-text">
                                 <Card.Text className="text-center">
-                                    Every coin design comes with a certificate of ownership <br/> containing coin details and emoji features. <br/>
+                                Every coin in our collection comes with its own certificate of ownership, which serves as proof of your ownership of the coin and its unique design.<br/>
+                                These certificates contain all the necessary details about the coin, including its denomination, composition <br/> and grade. 
+                                <br/>They also include information about the emoji features that make the coin one-of-a-kind.
                                 </Card.Text>  
                                 </div>
                             <div className="details-img">
@@ -69,9 +76,8 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                             </div>
                             <div className="details-text">
                                 <Card.Text className="text-center">
-                                    Original <b>VOX</b> models are available to download via the certificate. <br/> 
-                                    All models have been built with dimensions of 32x6x32 voxels <br/> 
-                                    and are compatible with Cryptovoxels Metaverse. 
+                                Original <b>VOX</b> models can be downloaded via the certificate of ownership. These models have been built with dimensions of 32x6x32 voxels and are compatible with the Voxels.com Metaverse.<br/>
+                                They are a great addition to any collection and can be used to bring your coins to life within the virtual world.
                                 </Card.Text>  
                             </div>
                         </div>      
@@ -82,7 +88,8 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                             </div>
                             <div className="details-text">
                                 <Card.Text className="text-center">
-                                    Each emoji face is randomly generated <br/> and varies in rarity. <br/>
+                                The randomly generated emoji faces on our coins add an extra touch of uniqueness and specialness to the collection. <br/>
+                                Each emoji face brings its own element of surprise and intrigue, making each coin a truly one-of-a-kind piece.
                                 </Card.Text>  
                             </div>
                         </div>  
@@ -93,9 +100,9 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                             </div>
                             <div className="details-text">
                                 <Card.Text className="text-center">
-                                    No expensive transaction fees.<br/> 
-                                    Emojicoins dapp is build on Polygon, <br/> 
-                                    Layer 2 blockchain that aims to help Ethereum with its scalability.<br/> 
+                                One of the advantages of Emojicoins Collection is that it has <br/> low transaction fees. 
+                                It is built on Polygon, a layer 2 blockchain that aims to improve Ethereum's scalability. <br/>
+                                This means that you can customize, mint, and trade our Emojicoins without the burden of high fees.
                                 </Card.Text>  
                             </div>
                         </div>                          
@@ -106,8 +113,9 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                             </div>
                             <div className="details-text">
                                 <Card.Text className="text-center">
-                                    No broken links or failed servers.<br/> 
-                                    All NFT related data / resources are being stored on blockchain and IPFS.<br/> 
+                                Emojicoins dapp is designed to be reliable and easy to use.<br/> 
+                                There are no broken links or failed servers to worry about.<br/> 
+                                All NFT-related data and resources are stored on the blockchain and IPFS, ensuring that your collection is safe and secure.
                                 </Card.Text>  
                             </div>
                         </div>   
@@ -120,8 +128,9 @@ Does this bring back any memories or perhaps a little nostalgia is scratching th
                             </div>
                             <div className="details-text">
                                 <Card.Text className="text-center">
-                                    EMOJIs are fungible tokens [ERC20], <br/>that can be earned by staking or burning Emoji Coin NFTs. <br/>
-                                    EMOJIs can be used to mint new EMOJI Coin NFTs. <br/>In the future possibly traded on exchanges.
+                                EMOJIs are fungible tokens (ERC20) that can be earned by staking <br/>or burning Emoji Coin NFTs. <br/>
+                                These tokens can be used to mint new Emoji Coin NFTs, and in the future, they may even be traded on exchanges. <br/>
+                                EMOJIs add an extra layer of utility to our Emoji Coin NFTs, <br/>making them even more valuable and desirable.
                                 </Card.Text>  
                             </div>
                         </div>                         

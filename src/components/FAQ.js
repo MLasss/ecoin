@@ -45,7 +45,7 @@ export default class FAQ extends Component {
                             <Accordion.Item eventKey="5">
                                 <Accordion.Header>Why some images doesn't load or loads slowly?</Accordion.Header>
                                 <Accordion.Body>
-                                    All NFT related resources are safely stored and pinned on IPFS. Garbage collector frequently removes unused resources from nodes, but no fear your images are not gone, it means that you will need to wait a little bit longer or refresh the screen few times. There are strategies to improve this experience, we may look at it in future.
+                                    All NFT-related resources are securely stored and pinned on IPFS. However, the garbage collector may occasionally remove unused resources from nodes, which can cause some images to temporarily disappear. If this happens, you may need to wait a bit longer or refresh the screen a few times to see the image again. I'm aware of this issue and may look into ways to improve the experience in the future.
                                 </Accordion.Body>
                             </Accordion.Item>                             
                         </Accordion> 

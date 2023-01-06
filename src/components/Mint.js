@@ -8,40 +8,40 @@ export default class Mint extends Component {
         return (
             <div>
                 <Card bg='light' border="secondary" >
-                    <Card.Header><b>Mint</b></Card.Header>
+                    <Card.Header><b>Minting [Find the EmojiCoins Mint Dapp in the Footer]</b></Card.Header>
                     <Card.Body>
                         <Card.Text className="text-justify">
-                            <b>10,000</b> unique coin templates can be minted for the equivalent of each coin’s nominal value, paid with <i>EMOJIs</i> [ERC20 token].
-                            Each Minter will be granted the status of Original Minter (OM) of the coin and thereafter become eligible for the Minter Bonus.<br/>
+                            For a payment of <i>EMOJI</i> tokens (<i>EMOJIS</i>) [ERC20], unique coin templates can be minted at a rate of one template per coin's nominal value. 
+                            There is a limit of <b>10,000</b> templates that can be minted. 
+                            The person who mints the coin will be designated as the Original Minter (OM) of the coin and will be eligible for the Minter Bonus.
                         </Card.Text>  
                      </Card.Body>
                     <Card.Header><b>Minter Bonus</b></Card.Header>
                     <Card.Body>
                         <Card.Text className="text-justify">
-                            OMs will receive a financial bonus for certain actions performed on given coin after he or she sells it on the secondary market. Bonus value is 10% of each action’s price.
-                            <br/>
-                            <i>E.g. John mints an Emoji Coin and sells it to Peter. John will receive 10% of stake rewards, that Peter will claim in the future.</i>
+                            Original Minters (OMs) will receive a financial bonus for certain actions performed on a coin after it has been sold on the secondary market. The bonus is equal to 10% of the price of each action. <br/>
+                            <i>For example, if John mints an Emoji Coin and sells it to Peter, John will receive 10% of the staking rewards that Peter claims in the future.</i>
                         </Card.Text>  
                     </Card.Body>
-                    <Card.Header><b>Clone</b></Card.Header>
+                    <Card.Header><b>Cloning [Find the EmojiCoins Gallery Dapp in the Footer]</b></Card.Header>
                     <Card.Body>
                         <Card.Text className="text-justify">
-                            Coins above the <b>MS60</b> grade can be cloned by its owner. The price for cloning is equal to twice of  coin’s nominal value and it doubles with each clone created.
-                            This process reduces the <b>Grade</b> of both coins by 2 points each time a clone is made.<br/>
+                            Most coins with a grade above <b>MS60</b> can be cloned by their owner. The cost of cloning a coin is equal to twice its nominal value, and this cost doubles with each additional clone that is created. 
+                            This process <b>reduces the grade</b> of both the original coin and the clone by 2 points each time a clone is made.<br/>
                         </Card.Text>                         
                         <Table striped bordered size="sm">
                             <thead>
                                 <tr>
-                                    <th style={{width:'250px'}}>Coin Type</th>
-                                    <th>Coin Count</th>
-                                    <th>Max Coppies per Coin</th>
+                                    <th style={{width:'250px'}}>Coin Template Type</th>
+                                    <th>Coin Template Count</th>
+                                    <th>Max Coins per Template</th>
                                 </tr>
                             </thead>                            
                             <tbody>
                                 <tr>
                                     <td>Gold Limited Edition</td>
                                     <td>10</td>
-                                    <td>Can not be cloned</td>
+                                    <td>1 (Can not be cloned)</td>
                                 </tr>
                                 <tr>
                                     <td>Gold</td>
@@ -56,7 +56,7 @@ export default class Mint extends Component {
                                 <tr>
                                     <td>Silver Limited Edition</td>
                                     <td>50</td>
-                                    <td>Can not be cloned</td>
+                                    <td>1 (Can not be cloned)</td>
                                 </tr>   
                                 <tr>
                                     <td>Silver Gold-Plated</td>
@@ -71,7 +71,7 @@ export default class Mint extends Component {
                                 <tr>
                                     <td>Limited Edition</td>
                                     <td>130</td>
-                                    <td>Can not be cloned</td>
+                                    <td>1 (Can not be cloned)</td>
                                 </tr>                                                                                                                                           
                                 <tr>
                                     <td>Gold-Plated</td>
@@ -94,21 +94,21 @@ export default class Mint extends Component {
                             <i>* Limited Edition coins can not be cloned </i>
                         </Card.Text>  
                     </Card.Body>
-                    <Card.Header><b>Burn</b></Card.Header>
+                    <Card.Header><b>Burning [Find the EmojiCoins Gallery Dapp in the Footer]</b></Card.Header>
                     <Card.Body>
                         <Card.Text className="text-justify">
-                            Selling on the secondary market isn't going as planned? Burning Emoji Coin will allow to re-gain 90% of coin’s nominal value in EMOJI tokens. After the last copy of a coin is burned, the coin will be lost forever, and can neither be minted nor cloned anymore. <br/><br/>
-                            <i>* There is a cool-down period of (1 month) since coin's creation. A coin can not be burned during cool-down period.</i><br/>
-                            <i>* A penalty of 10%  con nominal value is enabled to discourage pointless burning. The penalty may be updated/removed in the future. </i><br/>
-                            <i>* During initial phases of the project, burning may be disabled.</i>   
-                            <br/>                      
+                            If you are having trouble selling your Emoji Coin on the secondary market, you can burn the coin to receive 90% of its nominal value in <i>EMOJI</i> tokens. 
+                            However, please note that burning a coin is a permanent action and the coin will be lost forever, so it cannot be minted or cloned again.<br/><br/>
+                            <i>Please also note the following restrictions on burning:</i><br/>
+                            <i>* There is a one-month "cool-down" period after the coin is created, during which it cannot be burned.</i><br/>
+                            <i>* A penalty of 10% of the nominal value is applied to discourage unnecessary burning. This penalty may be updated or removed in the future.</i><br/>
+                            <i>* During the initial phase of the project, burning may be disabled.</i><br/>
                         </Card.Text>                         
                     </Card.Body>
                     <Card.Header><b>Coin Grading</b></Card.Header>
                     <Card.Body>
                         <Card.Text className="text-justify">
-                            All coins are graded in respect of their current condition.<br/><br/>
-
+                            All coins are graded based on their current condition using the grading scale established by the Professional Coin Grading Service (PCGS).<br/>
                         </Card.Text>                         
                         <Table striped bordered size="sm">
                             <thead>
@@ -189,13 +189,13 @@ export default class Mint extends Component {
                             </tbody>
                         </Table>                             
                     </Card.Body>                    
-                    <Card.Header><b>Want to make it more personal?</b></Card.Header>
+                    <Card.Header><b>Add a Personal Touch [Find the EmojiCoins Gallery Dapp in the Footer]</b></Card.Header>
                     <Card.Body>
                         <Card.Text className="text-justify">
-                            An owner can change coin's name and description on the block-chain. <br/>
-                            Change name cost 0.5x coin's nominal value. Max 32 alpha-numeric symbols can be used. <br/>
-                            Change description cost 1x of coin's nominal value. Max 256 alpha-numeric symbols can be used. <br/><br/>   
-                            <i>* Updating coin's name/description does not affect cloned coins - they keep original name/description.</i> <br/><br/>
+                            As the owner of a coin, you can change its name and description on the blockchain. <br/>
+                            It costs 0.5 times the coin's nominal value to change the name (maximum 32 alpha-numeric characters), 
+                            and it costs 1 times the coin's nominal value to change the description (maximum 256 alpha-numeric characters). <br/>  
+                            <i>Please note that updating the name or description of a coin does not affect any clones of the coin, which will retain their original name and description.</i> <br/><br/>
                         </Card.Text>                         
                     </Card.Body>
                 </Card>  

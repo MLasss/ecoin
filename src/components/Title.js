@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card'
 import Alert from 'react-bootstrap/Alert'
+import RandomSentence from './RandomSentence';
 
 export default class Title extends Component {
 
@@ -17,21 +18,22 @@ export default class Title extends Component {
 
     render() {
         const { show } = this.state;
-        //const [show] = this.state;
 
         return (
             <div>
                 <Card bg='light' border="secondary" >
-                    <Card.Header><b>Mint, Burn, Stake, Personalize and Receive Royalties and more...</b></Card.Header>
+                    <Card.Header><b> Full Range of Possibilities with Minting, Burning, Staking, Personalization, Royalties and more</b></Card.Header>
                     <Card.Body>
                         <div className="details-horisontal"> 
                             <div className="details-text">
                                 <Card.Text className="text-justify">
-                                    Well ... <br/>
-                                    ... I’m not here to sell you your dreams and promise quick profits ... <br/>
-                                    ... I’m not here to try and fool you about how dope this project is either ... <br/> 
-                                    <br/>
-                                    Feeling disappointed? That's your right. But before you move on to browsing for other projects, I urge you to continue reading ... <br/>
+                                <b>Okay, okay - I get it. </b>
+                                You're tired of hearing the same old lines about how amazing this project is and how you'll make a fortune overnight.<br/><br/>
+                                So let's skip all that nonsense and just be straightforward:<br/>
+                                I'm not going to try and sell you on unrealistic expectations or mislead you with hype. 
+                                Instead, I want to invite you to learn more about what we're doing and consider joining us in this journey.<br/> 
+                                I believe that together, we can achieve great things.<br/><br/>
+                                <i>PS: Don't underestimate the little greedy devil - he may be small, but he has a wealth of knowledge to share with you!</i>
                                 </Card.Text>  
                             </div>
                             <div>
@@ -39,11 +41,8 @@ export default class Title extends Component {
                             </div>
                         </div>  
                         <Alert variant="danger" show={show} onClose={() => this.setState({ show: false })} dismissible>
-                            <p className="mb-0">
-                                Cryptocurrencies are extremely risky and speculative 'investment'. 
-                                Majority of NFT projects are scams, rug-pulls or simply destined to fail. <b>Don’t bet more than you can afford to lose.</b>
-                            </p>
-                        </Alert>                        
+                            <RandomSentence jsonFileName="title_warning" className="mb-0" delay={60000}/>
+                        </Alert>  
                     </Card.Body>
                 </Card>  
             </div>

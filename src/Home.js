@@ -15,6 +15,8 @@ import FAQ from './components/FAQ'
 import Showcase from './components/Showcase'
 import Button from 'react-bootstrap/Button'
 import Badge from 'react-bootstrap/Badge'
+import TextPrinter from './components/TextPrinter'
+
 
 const defaultGateway = "https://ipfs.io";
 
@@ -56,9 +58,7 @@ export default class Home extends Component {
                             </a>
                         </div>
                         <div className="bannerTitle">
-                            The best NFT coin collection for<br/>
-                            Emoji lovers, CryptoPunk fans<br />
-                            and the rest of crypto-nerds.<br/>
+                            <TextPrinter jsonFileName="banner_text" delay={50} sentenceDelay={10000} />
                         </div>                        
                     </div>
                     <Title />
