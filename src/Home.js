@@ -11,6 +11,7 @@ import Staking from './components/Staking'
 import Mint from './components/Mint'
 import Roadmap from './components/Roadmap'
 import Help from './components/Help'
+import BTC from './components/BTC'
 import FAQ from './components/FAQ'
 import Showcase from './components/Showcase'
 import Button from 'react-bootstrap/Button'
@@ -81,9 +82,12 @@ export default class Home extends Component {
                         <Tab eventKey="roadmap" title="Roadmap" mountOnEnter={true}>
                             <Roadmap />
                         </Tab>
+                        <Tab eventKey="btc" title="BTC" mountOnEnter={true}>
+                            <BTC />
+                        </Tab> 
                         <Tab eventKey="faq" title="FAQ" mountOnEnter={true}>
                             <FAQ />
-                        </Tab>                        
+                        </Tab>                                                
                         <Tab eventKey="help" disabled mountOnEnter={true}>
                             <Help />
                         </Tab>

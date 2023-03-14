@@ -119,6 +119,18 @@ export default class About extends Component {
                                 </Card.Text>  
                             </div>
                         </div>   
+                        <br/>  
+                        <div className="details-horisontal"> 
+                            <div className="details-img">
+                                <img style={{height:"192px", width:"192px"}} src={require('../images/bitcoin.png')} alt="" />
+                            </div>
+                            <div className="details-text">
+                                <Card.Text className="text-center">
+                                Emoji Coins was one of the first to inscribe their entire collection into the Bitcoin blockchain, 
+                                permanently committing all emojis to the blockchain.<br/> 
+                                </Card.Text>  
+                            </div>
+                        </div>                           
                     </Card.Body>    
                     <Card.Header><b>EMOJI tokens</b></Card.Header>
                     <Card.Body>
