@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.07e761a1.css",
-    "main.js": "./static/js/main.6248babd.js",
+    "main.css": "./static/css/main.8dae7e93.css",
+    "main.js": "./static/js/main.4bfdc0f1.js",
     "static/js/787.86e06925.chunk.js": "./static/js/787.86e06925.chunk.js",
     "static/media/001.gif": "./static/media/001.e473c1f4f85021d4c4b9.gif",
     "static/media/webBanner.gif": "./static/media/webBanner.a0cee6050242a1bac194.gif",
@@ -23,6 +23,10 @@
     "static/media/QmNTHKeFMKzgmcamYXZpaB2QQdUQXyzVKfzkYEzG1oDLee.gif": "./static/media/QmNTHKeFMKzgmcamYXZpaB2QQdUQXyzVKfzkYEzG1oDLee.1647a86dabc6783cf5e2.gif",
     "static/media/QmSavy4FkmidjKsEzrG4C1BbnDvJZnMYjkyFbnYrAnHfrV.gif": "./static/media/QmSavy4FkmidjKsEzrG4C1BbnDvJZnMYjkyFbnYrAnHfrV.093ff3c654b221992dfc.gif",
     "static/media/QmQYu2pKj1FivqocbofFF2LVk8uUiPreyeXkGSD6L4YjK8.gif": "./static/media/QmQYu2pKj1FivqocbofFF2LVk8uUiPreyeXkGSD6L4YjK8.a4c3c8161f9edb7a65ba.gif",
+    "static/media/montage3.webp": "./static/media/montage3.3d915698e3b83cb17d79.webp",
+    "static/media/montage2.webp": "./static/media/montage2.7f9f6d5395672926b3b2.webp",
+    "static/media/montage1.webp": "./static/media/montage1.3d8d9167cb6b2d392fe4.webp",
+    "static/media/montage0.webp": "./static/media/montage0.b79407abe9b764664110.webp",
     "static/media/QmR7CL1ZAZ3vxgpbT7UrkEmngK6BNhScTokqYZUDtCni5V.gif": "./static/media/QmR7CL1ZAZ3vxgpbT7UrkEmngK6BNhScTokqYZUDtCni5V.7966d8cc74b5859bcf16.gif",
     "static/media/img_certificate2.png": "./static/media/img_certificate2.a83d2261f42ce523541a.png",
     "static/media/ic05_512.png": "./static/media/ic05_512.bd04ddc2597c21bd1084.png",
@@ -36,21 +40,22 @@
     "static/media/Nueva-Std.ttf": "./static/media/Nueva-Std.ed5aa917a8e78957a54e.ttf",
     "static/media/Nueva-Std-Bold-Condensed.ttf": "./static/media/Nueva-Std-Bold-Condensed.c5e3858a6126bd67233a.ttf",
     "static/media/icon-E192.gif": "./static/media/icon-E192.648d420b7eeb164e2245.gif",
-    "static/media/polygon.png": "./static/media/polygon.21d683f93a1d9080395c.png",
+    "static/media/polygon.png": "./static/media/polygon.1f2898f312a25042e4fd.png",
     "static/media/graph-staking.png": "./static/media/graph-staking.664570590d3f4b69c97d.png",
     "static/media/graph-staking-2.png": "./static/media/graph-staking-2.26be0e0ccd557629369e.png",
     "static/media/faces.png": "./static/media/faces.52302c919b1a6f9e7476.png",
-    "static/media/ipfs.png": "./static/media/ipfs.0b0291de269c4d9c9556.png",
+    "static/media/ipfs.png": "./static/media/ipfs.87795ba9e8ffd54189f9.png",
+    "static/media/bitcoin.png": "./static/media/bitcoin.3e62d45406b778ce3506.png",
     "static/media/imgBg.png": "./static/media/imgBg.0aa2762d1ce22846749e.png",
     "static/media/graph-distribution.png": "./static/media/graph-distribution.bea9f64bb8d0c2b9c541.png",
     "static/media/loading.gif": "./static/media/loading.429b286567e28c6071bb.gif",
     "index.html": "./index.html",
-    "main.07e761a1.css.map": "./static/css/main.07e761a1.css.map",
-    "main.6248babd.js.map": "./static/js/main.6248babd.js.map",
+    "main.8dae7e93.css.map": "./static/css/main.8dae7e93.css.map",
+    "main.4bfdc0f1.js.map": "./static/js/main.4bfdc0f1.js.map",
     "787.86e06925.chunk.js.map": "./static/js/787.86e06925.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07e761a1.css",
-    "static/js/main.6248babd.js"
+    "static/css/main.8dae7e93.css",
+    "static/js/main.4bfdc0f1.js"
   ]
 }
